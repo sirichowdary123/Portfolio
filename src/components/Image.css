@@ -1,11 +1,10 @@
-.image-wrapper{
-    display:flex;
-    gap:15px;
-}
+
 .designation{
-    writing-mode: vertical-rl;
-   font-size: 30px;
+   font-size: 25px;
    letter-spacing: 1px;
+   margin-top:20px;
+   margin-bottom:20px;
+   display: inline-block;
 }
 .image{
     box-shadow: 6px 6px 12px #b8b9be,-6px -6px 12px #fff!important;
@@ -13,18 +12,34 @@
 
 }
 .image-parent{
-    width:600px;
+   width:100%;
 }
 .my-bio{
     position:relative;
-    padding-left: 30px;
-    font-size: 25px;;
+    font-size: 20px; 
+}
 
-    
-}
-.text-wrapper{
-    display:flex;
-    flex-direction:column;
-    justify-content:space-between;
-    align-items: flex-start;
-}
+@media only screen and (min-width: 922px) {
+    .image-parent{
+        width:600px;
+       
+    }
+    .image-wrapper{
+        display:flex;
+        gap:15px;
+    }
+    .text-wrapper{
+        display:flex;
+        flex-direction:column;
+        justify-content:space-between;
+        align-items: flex-start;
+    }
+    .my-bio{
+        padding-left: 30px;
+        font-size: 25px; 
+    }
+    .designation{
+        writing-mode: vertical-rl;
+        font-size: 30px;
+    }
+  }

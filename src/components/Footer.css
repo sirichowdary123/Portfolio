@@ -1,10 +1,9 @@
 footer{
-    margin-left:350px;
     margin-top:70px;
 }
 .footer-link{
     display:flex;
-    gap:125px;
+    gap:50px;;
     
 }
 .footer-link ul{
@@ -29,4 +28,14 @@ footer{
     color: #808284;
     letter-spacing: 1.5px;
     margin-left:40px;
+}
+@media only screen and (min-width: 922px) {
+    footer{
+        margin-left:350px;
+        margin-top:70px;
+    }
+    .footer-link{
+        gap:125px;
+        
+    }
 }

@@ -1,7 +1,12 @@
 .name-title{
-    margin-left: -202px;
     font-size: 42px;
     letter-spacing: 7px;
     margin-bottom: 39px;
     font-style: italic;;
+}
+
+@media only screen and (min-width: 922px) {
+    .name-title{
+    margin-left: -202px;
+}
 }
