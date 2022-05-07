@@ -1,0 +1,30 @@
+.image-wrapper{
+    display:flex;
+    gap:15px;
+}
+.designation{
+    writing-mode: vertical-rl;
+   font-size: 30px;
+   letter-spacing: 1px;
+}
+.image{
+    box-shadow: 6px 6px 12px #b8b9be,-6px -6px 12px #fff!important;
+    width:100%;
+
+}
+.image-parent{
+    width:600px;
+}
+.my-bio{
+    position:relative;
+    padding-left: 30px;
+    font-size: 25px;;
+
+    
+}
+.text-wrapper{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items: flex-start;
+}

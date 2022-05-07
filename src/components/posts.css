@@ -1,0 +1,17 @@
+.certificate ul {
+    list-style-type: none;
+}
+.certificate li{
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+.certificate-title{
+    min-width: 250px;
+    color:green;
+    display: inline-block;
+}
+ .certificate h2{
+    font-size: 35px;
+    margin-top: 70px;
+    margin-bottom: 56px;
+}

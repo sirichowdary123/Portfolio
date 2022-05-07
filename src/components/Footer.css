@@ -1,0 +1,32 @@
+footer{
+    margin-left:350px;
+    margin-top:70px;
+}
+.footer-link{
+    display:flex;
+    gap:125px;
+    
+}
+.footer-link ul{
+     list-style-type: none;
+     
+}
+.footer-link li{
+    font-size:20px;
+    margin-bottom:18px;
+}
+.footer-link a{
+    color:black;
+    text-decoration:none;
+}
+.footer-link a:hover{
+    text-decoration:underline;
+}
+.copyright-text{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #808284;
+    letter-spacing: 1.5px;
+    margin-left:40px;
+}
