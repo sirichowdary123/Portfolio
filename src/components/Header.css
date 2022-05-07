@@ -6,6 +6,10 @@
     padding-right: 20px;
     font-size: 20px;
 }
+.nav-list a{
+    color: #f26c39;
+
+}
 @media only screen and (min-width: 922px) {
   .nav-list{
     padding-right: 150px;
